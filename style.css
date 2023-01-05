@@ -61,6 +61,11 @@ nav{
     justify-content: space-between;
     padding: 15px 0;
 }
+.nav-left h1{
+    font-size: 45px;
+    color: #181818;
+    font-weight: 800;
+}
 nav ul li{
     list-style: none;
     display: inline-block;
@@ -125,12 +130,15 @@ nav ul li a{
 .about-inner-bottom-item{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 .about-inner-bottom-item h4{
     color: #757575;
+    font-size: 20px;
 }
 .about-inner-bottom-item h3{
     color: #474747;
+    font-size: 20px;
 }
 
 /* what i do section */
@@ -199,4 +207,58 @@ nav ul li a{
 }
 .resume-download-btn{
     text-align: center;
+}
+
+/* connect section */
+.connect-section{
+    background-color: #FFF8F3;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.connect-item-parent{
+    display: flex;
+    gap: 50px;
+}
+.connect-left{
+    flex: 1 1 55%;
+    padding-left: 90px;
+}
+.connect-left h3, .connect-right h3{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.connect-left p{
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+.connect-left ul li{
+    display: inline-block;
+}
+.connect-left ul li a{
+    text-decoration: none;
+    color: #FD6E0A;
+    margin: 0 15px;
+}
+
+.connect-right{
+    flex: 1 1 45%;
+}
+.connect-right form input[type='name'], input[type='email'], textarea{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 15px 20px;
+    border: none;
+    font-size: 19px;
+}
+.connect-right form input[type='email']{
+    margin: 25px 0;
+}
+.connect-right .cmn-btn-one{
+    margin-top: 25px;
 }
