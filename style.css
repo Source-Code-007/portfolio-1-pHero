@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,h6,p,a,span {
     color: #FD6E0A;
 }
 .cmn-btn-one {
+    display: inline-block;
     color: #fff;
     background-color:#FD6E0A;
     border-radius: 5px;
@@ -30,6 +31,7 @@ h1,h2,h3,h4,h5,h6,p,a,span {
     border: 1px solid #FD6E0A;
 }
 .cmn-btn-two{
+    display: inline-block;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     background-color: #fff;
@@ -106,16 +108,95 @@ nav ul li a{
 /* about section */
 .about-section{}
 .about-inner{
-    background-color: rgba(255, 99, 71, 0.241);
+    background-color:  #FFF8F3;
     text-align: center;
     margin: 80px 0;
-    padding: 90px 70px;
+    padding: 130px 150px;
+}
+.about-inner h2{
+    font-weight: 700;
+    font-size: 35px;
 }
 .about-inner p{
     margin: 40px 0;
-    color: #777;
+    font-size: 18px;
+    color: #757575;
 }
 .about-inner-bottom-item{
     display: flex;
     justify-content: space-between;
+}
+.about-inner-bottom-item h4{
+    color: #757575;
+}
+.about-inner-bottom-item h3{
+    color: #474747;
+}
+
+/* what i do section */
+.what-i-do-intro{
+    text-align: center;
+    padding: 0 220px;
+}
+.what-i-do-intro h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.what-i-do-intro p{
+    color: #757575;
+}
+.what-i-do-item-main{
+    display: flex;
+    margin: 60px 0;
+    gap: 40px;
+
+}
+.what-i-do-item{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.what-i-do-item h4{
+    margin: 15px 0;
+}
+.what-i-do-item p{
+    color: #757575;
+}
+
+/* Resume section */
+.resume-section{
+    padding: 80px 0;
+}
+.resume-intro{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.resume-item-main{
+    display: flex;
+    gap: 65px;
+}
+.resume-item-inner{
+    padding: 30px 100px 30px 0;
+}
+.resume-item .resume-item-title{
+    color: #474747;
+}
+.resume-item-inner h3{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-inner h5{
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-item-inner h5, .resume-item-inner p{
+    color: #757575;
+}
+.resume-download-btn{
+    text-align: center;
 }
