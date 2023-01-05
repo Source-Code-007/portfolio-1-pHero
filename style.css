@@ -1,0 +1,104 @@
+/* Default CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span {
+    font-family: 'Open Sans', sans-serif;
+}
+.cmn-clr-one {
+    color: #FD6E0A;
+}
+.cmn-btn-one {
+    color: #fff;
+    background-color:#FD6E0A;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: .5s;
+    border: 1px solid #FD6E0A;
+}
+.cmn-btn-one:hover{
+    color: #FD6E0A;
+    background-color: #fff;
+    border: 1px solid #FD6E0A;
+}
+.cmn-btn-two{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    background-color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+.cmn-btn-two:hover{
+    color: #fff;
+    background-color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+.fix-width {
+    width: 1250px;
+    margin: auto;
+}
+
+/* Let's start with custom CSS */
+/* Header */
+header{
+    background: url(img/developer.png) no-repeat top left, url(img/header_bg.png) no-repeat bottom right;
+    background-size: contain, auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.banner{
+    height: 91vh;
+    display: flex;
+    align-items: flex-end;
+}
+.banner-left{
+    align-self: center;   
+    flex: 1 1 50%; 
+}
+.banner-left h6{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-left h2{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-left p{
+    color: #757575;
+    font-size: 18px;
+}
+.banner-btn-group{
+    margin-top: 50px;
+}
+.banner-btn-group .cmn-btn-two{
+    margin-left: 20px;
+}
+
+.banner-right{
+    flex: 1 1 50%; 
+    text-align: right;
+}
